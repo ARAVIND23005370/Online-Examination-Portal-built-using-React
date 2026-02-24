@@ -1,16 +1,136 @@
-# React + Vite
+#  Online Examination Portal (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Project Overview
 
-Currently, two official plugins are available:
+The **Online Examination Portal** is a React-based web application that simulates a real-time online exam environment.  
+It allows students to attempt exams with a countdown timer, dynamic question rendering, answer selection, and automatic result calculation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project demonstrates practical implementation of React fundamentals and modern frontend development using Vite.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Features
 
-## Expanding the ESLint configuration
+-  Real-time countdown timer
+-  Multiple-choice question system
+-  Dynamic question rendering
+-  Controlled answer input
+-  Automatic score calculation
+-  Disable input after submission
+-  Auto-submit when time expires
+-  Clean and responsive UI
+-  Component-based architecture
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+##  Tech Stack
+
+- React (Functional Components)
+- React Hooks (`useState`, `useEffect`, `useRef`)
+- Vite
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+```
+Online-Examination-Portal-built-using-React/
+│
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   ├── StudentCard.jsx
+│   └── assets/
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+##  How It Works
+
+1. The exam starts with a predefined time limit.
+2. Questions are rendered dynamically.
+3. Users select answers.
+4. A countdown timer runs using `useEffect`.
+5. When:
+   - The user clicks submit → Score is calculated.
+   - The timer reaches zero → Exam auto-submits.
+6. Final result is displayed.
+
+---
+
+##  React Concepts Used
+
+- Functional Components
+- Props
+- State Management (`useState`)
+- Side Effects (`useEffect`)
+- Refs (`useRef`)
+- Conditional Rendering
+- Event Handling
+- Controlled Components
+
+---
+
+##  Installation & Setup
+
+Clone the repository:
+
+```
+git clone https://github.com/ARAVIND23005370/Online-Examination-Portal-built-using-React.git
+```
+
+Navigate to the project folder:
+
+```
+cd Online-Examination-Portal-built-using-React
+```
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm run dev
+```
+
+---
+
+##  Learning Outcomes
+
+- Building real-time applications using React
+- Managing timer-based logic
+- Handling dynamic UI updates
+- Structuring React projects professionally
+- Understanding modern frontend workflows using Vite
+
+---
+
+##  Future Improvements
+
+- Add authentication system
+- Add backend integration
+- Store results in database
+- Add question randomization
+- Improve UI animations
+
+---
+
+##  Author
+
+**Aravind R**
+
+GitHub: https://github.com/ARAVIND23005370
